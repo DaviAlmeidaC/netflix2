@@ -140,10 +140,8 @@ color: #B3B3B3;
 }
 
 .link-ajuda{
-  display: flex;
-  flex-direction: column;
+ 
   text-decoration: none;
-
 
 
 font-family: 'Roboto';
@@ -156,6 +154,13 @@ margin: 0px 0px 0px 150px;
 align-items: center;
 
 color: #B3B3B3;
+}
+
+.b{
+     margin: -18px;
+     padding-left: 147px;
+     margin-bottom: 45px;
+    
 }
 
 .link-assine{
@@ -178,10 +183,14 @@ color: #B3B3B3;
     }
 
 .texto_descricao{
-    margin: 0px 0px 0px 70px;
+    margin: 0px 0px -7px 70px;
+ padding: -50px;
 }
 
 .saiba{
     text-decoration: none;
     color: #0071EB;
+    margin: 0px 0px 0px 103px;
+    font-size: 15px;
 }
+
