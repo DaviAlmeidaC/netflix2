@@ -1,0 +1,13 @@
+body{
+    background-image: url(la-casa-de-papel.gif);
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Roboto';
+    opacity: 0,3;
+}
+
+.div-princi{
+     background: #141414;
+}

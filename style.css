@@ -2,22 +2,23 @@ body{
     background-image: url(US-en-20230206-popsignuptwoweeks-perspective_alpha_website_large.jpg.png);
     background-repeat: no-repeat;
     background-color: black;
-    display: flex;
+    background-size: 100%;
+    
     font-family: 'Roboto';
 }
 
 .div-prin{
     display: flex;
     flex-direction: column;
-
+    
 
     
-    margin: 80px 0px 0px 250px;
+    margin: 30px 0px 0px 730px;
     width: 450px;
     height: 660px;
     
     background: rgba(0, 0, 0, 0.75);
-    border-radius: 6px;
+    border-radius: 3px;
     
     flex: none;
     order: 0;
@@ -25,7 +26,7 @@ body{
 }
 
 .netflix{
-    margin: 10px 0px 0px 40px;
+    margin: 23px 0px 0px 57px;
 }
 
 .login{
@@ -41,14 +42,14 @@ font-size: 32px;
 line-height: 38px;
 display: flex;
 align-items: center;
-margin: 50px 0px 5px 70px;
+margin: 50px 0px 8px 70px;
 color: #FFFFFF;
 }
 
 
 
 .butao{
-    margin: 60px 300px 0px 72px;
+    margin: 40px 300px 0px 72px;
     border: none;
     padding: 17px 175px 15px 135px;
     background-color: #E50914;
@@ -102,7 +103,7 @@ margin: 15px 0px 0px 70px;
 }
 
 .senha{
-    padding: 0px;
+    
     width: 314px;
 height: 50px;
 background-color: #333333;
@@ -117,6 +118,9 @@ margin: 15px 0px 0px 70px;
 
 .senha::placeholder{
     padding-left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .lembrar{
@@ -176,21 +180,21 @@ color: #B3B3B3;
     font-size: 16px;
     line-height: 19px;
     
-    margin: 20px 0px 20px 70px;
+    margin: 40px 0px 20px 70px;
     
     color: #737373;
     
     }
 
 .texto_descricao{
-    margin: 0px 0px -7px 70px;
+    margin: 0px 0px -15px 70px;
  padding: -50px;
 }
 
 .saiba{
     text-decoration: none;
     color: #0071EB;
-    margin: 0px 0px 0px 103px;
+    margin: 0px 0px 0px 290px;
     font-size: 15px;
 }
 
