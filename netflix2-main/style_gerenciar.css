@@ -1,0 +1,125 @@
+@keyframes fade-in {
+    from { opacity: 0 }
+    to   { opacity: 1 }
+  }
+  
+.div-principal{
+    background: #141414;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    animation: fade-in 1s normal forwards ease-in-out;
+  
+}
+
+.quem{
+    font-size: 3.5vw;
+    width: 100%;
+    color: #fff;
+    font-weight: unset;
+    position: absolute;
+    width:800px; height:25px;
+    top:160px; left:640px;
+}
+
+.usuario{
+    background-color: aliceblue;
+    position: absolute;
+    TOP:320px;LEFT:380px;
+    border-radius: 4px;
+}
+
+.usuario-2{
+    background-color: aqua;
+    position: absolute;
+    TOP:320px;LEFT:620px;
+    border-radius: 4px;
+    
+}
+
+.usuario-3{
+    background-color: antiquewhite;
+    position: absolute;
+    TOP:320px;LEFT:860px;
+    border-radius: 4px;
+    
+}
+
+.usuario-4{
+    background-color: orange;
+    position: absolute;
+    TOP:320px;LEFT:1100px;
+    border-radius: 4px;
+}
+
+.usuario-5{
+    background-color: pink;
+    position: absolute;
+    TOP:320px;LEFT: 1340px;
+    border-radius: 4px;
+}
+
+.nome{
+    color: #fff;
+    display: inline-block;
+    font-size: 27px;
+    width: 235px; height: 100px;
+    color: grey;
+   
+}
+
+.ul{
+    position: absolute;
+    top: 533px; left: 445px;
+}
+
+.gerenciar-perfil{
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+    margin: 2em 0 1em;
+    padding: 0.5em 1.5px;
+    position: absolute;
+    width:230px; height:28px;
+    top:612px; left:844px;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nome:hover{
+    color: #fff;
+}
+
+.usuario:hover{
+    box-shadow:0px 0px 0px 5px white;
+}
+
+.usuario-2:hover{
+    box-shadow:0px 0px 0px 5px white;
+}
+
+.usuario-3:hover{
+    box-shadow:0px 0px 0px 5px white;
+}
+
+.usuario-4:hover{
+    box-shadow:0px 0px 0px 5px white;
+}
+
+.usuario-5:hover{
+    box-shadow:0px 0px 0px 5px white;
+}
+
+
+.gerenciar-perfil:hover{
+    color: #fff;
+    border-color: #fff;
+}
+
