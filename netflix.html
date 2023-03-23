@@ -7,15 +7,181 @@
     <link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="netflix.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google" value="notranslate">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/><!--importando o carrosel-->
     <link type="text/css" rel="stylesheet" href="https://assets.nflxext.com/web/ffe/wp/less/core/error-page.b122c37502204303115a.css" data-uia="botLink">
     <title>Netflix</title>
 </head>
 <body>
-    <div class="div-princi">
-
-    </div>
+    <div class="div-principal">
+        <video autoplay muted loop loop poster="La Casa de Papel _ Trailer oficial _ Netflix Brasil.jpg" class="bg_video">
+			<source src="videoplayback.webm" type="video/webm">
+			<source src="La Casa de Papel _ Trailer oficial _ Netflix Brasil.mp4" type="video/mp4">
+		</video>	
+   
+<header class="cabeçalho">
+         <div>
+                <a href="http://127.0.0.1:5500/netflix.html"><img class="container-opçoes" src="svg.svg" alt="logo da netflix" class="imagem-netflix"></a>
+         </div>
     
+         <div>
+          <ul class="opcoes">
+                <li class="opcoes__itens"><a href="#" class="opcoes__link">Inicio</a></li></li><!--aqui en estou fazendo as listas que aparecendo no cabeçalho qunado eu passo o mouse-->
+                <li class="opcoes__itens"><a href="#" class="opcoes__link">Séries</a></li>
+                <li class="opcoes__itens"><a href="#" class="opcoes__link">Filmes</a></li>
+                <li class="opcoes__itens"><a href="#" class="opcoes__link">Bombando</a></li>
+                <li class="opcoes__itens"><a href="#" class="opcoes__link">Minha lista</a></li>
+                <li class="opcoes__itens"><a href="#" class="opcoes__link">Navegar por idiomas</a></li>
+         </ul>
+        </div>
+
+    <div class="container">
+                <a href="#"><img src="kisspng-material-font-search-icon-5b21819439b852.2823675615289225162364.png" alt="pesquisar" class="imagem-pesquisa "></a><!--boto se botar uma foto em cima do link-->
+                <a href="#" ><img src="transparent-notification-icon-communication-icon-bell-icon-601c062e97b261.3876154016124493266214.png" alt=" carrinho de Compras " class="imagem-sino"></a>
+                <a href="#" ><img src="cachorro.webp" alt="os usuarios/meu perfil" class="imagem-perfil "></a>
+    </div>
+</header>
+
+<section class="principal">
+    <div class="container__caixa">
+        <h1 class="container__titulo">La casa de <b class="pa">pa</b><b class="pe">pe</b><b class="le">le</b></h1>
+        <p class=" botao_secundario">Assista à 5 temporada agora</p>
+        <p class="container__aviso">muito pepei e poupou, roubo, policial, ladrões que passaos a amar mas são do mal</p>
+        <a href="#" class="play"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="Hawkins-Icon Hawkins-Icon-Standard"><path d="M4 2.69127C4 1.93067 4.81547 1.44851 5.48192 1.81506L22.4069 11.1238C23.0977 11.5037 23.0977 12.4963 22.4069 12.8762L5.48192 22.1849C4.81546 22.5515 4 22.0693 4 21.3087V2.69127Z" fill="currentColor"></path></svg> <path d="M4 2.69127C4 1.93067 4.81547 1.44851 5.48192 1.81506L22.4069 11.1238C23.0977 11.5037 23.0977 12.4963 22.4069 12.8762L5.48192 22.1849C4.81546 22.5515 4 22.0693 4 21.3087V2.69127Z" fill="currentColor"></path> </svg> Assistir</a>
+        <a href="#" class="container__botao"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3ZM1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12ZM13 10V18H11V10H13ZM12 8.5C12.8284 8.5 13.5 7.82843 13.5 7C13.5 6.17157 12.8284 5.5 12 5.5C11.1716 5.5 10.5 6.17157 10.5 7C10.5 7.82843 11.1716 8.5 12 8.5Z" fill="currentColor"></path></svg>   Mais informações</a>
+    </div>
+</section>
+</div>
+
+
+    
+<div class="div-secun">
+
+<section class="carrossel">
+    <p class="carrosel__titulo">Em alta</p>
+
+    <div class="carrossel__container">
+<div class="swiper">>
+
+<div class="swiper-pagination"></div>
+
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide"><img class="img-carrosel"  src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABesuFcTI6fhomCdACX4YlSZmxUe_E82OLLLaZ3dMAz-6HRYFwQvlgV26Ze93t0L6oRm5AZag6Oh23sinmJp1wSQhaqf4LNG3GZMqNNopk4GOn199YRIxiMFjIgmjOK8eqrFodt8Ihq-cuzhIRSmJHnszVjj0hvhPBBtX46IBTSHDZIx2m95ueQqqtT3BoV8-lU0ycb7JBG_UGHn9Qh4nss3l7KhRp9rAtbwN-_PWzmRya7kpxZjuq9rQa3aq68u654w6yg2WaLSpuNkdI_HeYd8r9zxvNcsRDbAden-V_W3hjgV-vjcJq_-h.jpg?r=02b" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaobMsdL6ejvTg8B69xj5nl9-JBp_VwbGZI2sFTe7UL5Mka2Hq1drM6wJ8YbpsrcZrchclDJNCZ-yon3WN6-G1sTQ-RpzDx-D0g.webp?r=422" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWWkUxtcJVK58SAnG-FMLo4iX-hjD1ZcT1MPd9Dk3ZTIFmz-Xt4QenjV5vEu80a-BXmRLEZCJa3XhSXDaEU633C5F_nmRIC8ZoeclQQAvW4SbBIYaRD3FdclHTVt90oDyLQs.jpg?r=9a9" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYRq-7-gL95d51PVzfnHr66w_MAb5AZDEo0LPzQolLaiHjx2vLUEgErWRyWRED_P8W-G3J9FqFxIjeC_RLuSvtkt0HUAmDS3aAeSqlMc8Aw2THVoa6MV_eey7mjWzFVPLLdh.jpg?r=dea" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZ2eiBpv_rekzKj9jQZotd4B03h7CzmZkUtSPJMLEAFqL9yfN0HrM3AsotR28mktweG4g0DJzJiprKzYxs34LF5H35bNHMRHRFQ.webp?r=615" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZi_RqpT84KU9PuLqluo8QNslnXT8Hu2_bME3ez2GFxUqc-CdICtULofUMFIpTV_EO1tghUWNSLzXeqhWzYDdSL2ifiUB0eKrn8.webp?r=01d" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRk5l-sT5pIu6m2XBwjlxVoPvLj0ZGPZFOJcPRdhgoCtK24nKQra-MsowHORe4I7P2I_K4FAcRX3kMRgJnuY3Y9dydCSzWFacrw.webp?r=4c3" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABax8tF9O-i_1eWT24E0D7R3cU8hG9A8QguHYX2qEH12H2PnKwt4A4DeipWuctJQPttZWvCb3dXd8sAiw-oW9X-yM1nnEkVAYHao.webp?r=094" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABah7lStUvgtHQK4dBlCNXrReLRpI8sV4q8_IREhVImBzDZL1dDurMdHwpGfYAnw_wg8dza5nggtZlAepdFJPW3VqnvCaUtp3iXA.webp?r=1e2" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSVh4y_v_Unh2kUbXYF-4Jr4-HL-1XFtONnLGjck5DYPaxMIjwi5OudI7e21vTNo_x6FcuP063ZOKq3-f1JRz5tInMR_pHEr6sY.webp?r=3ad" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABb_2-brBZG6FDCqIfY2VQxzkxFjM-3csGK2FP5KlCp_h1quSzRNH1qYcZuir2y8vzJsGI-FyxJsCBxDTBgNIpmRsphiBDNzUjO5rj3hDTb_mydS_d6YOuHl_IXWuIHmqzVvuxKssXjIdSDyeBXhGKhOJFTDx-ToE3mCCque1njzQFg4JBeRD_KVxaYjX8VLyNOptF16Ii5gDGuUssP5o4SYu0ianI89rEFQGKVeptsqfQbiQoF9jn-Hl9i2FuPEFZXZvjVzQCTqW8UNVBIDhLFswN15Vvd36qKFBz__eyXEwrtL5fIjn9mdTusygkM7F0yEd_4szjPrcr3FKJyPFtE-MCef5EBa_5oa0ryMXFkZMHAx1i7Cl3w.jpg?r=9fd" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABb9r_YwWbuPJsI8V6MH3OpjHskSMrjUhvOLnww2WpDO-yRNtRGHzCmwYs8tyA6EPvkxFx9Fi2T-MswccmSjOafeBnt_K03LYJfUW4DlKmzPhMLkVYOj0YSMrgGg4Vk80X4f9.jpg?r=42a" alt=""></div>
+<div class="swiper-slide"><img src="oculos 2.jfif" alt="livro sobre Gestão"></div>
+
+
+</div>
+
+
+
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+
+</div>
+
+<section class="carrossel">
+    <p class="carrosel__titulo2">Minha lista</p>
+
+    <div class="carrossel__container">
+<div class="swiper">>
+
+<div class="swiper-pagination"></div>
+
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABY_iPzjSt6Sj-32uf8CeXtyBL7jxJRbxeSHBgiVv1YYAF2X-JBTmJvV0CdTMFL2dL7o99p9-UMmbgBDNSOtAomYe19ekqd2modI.webp?r=1f9" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZIrhZBFtQ5e0XKvWMqHNw1n-POLcIhGkamzDFg_TNWK9bhvMb-7S-9OoW-a03p8ryvSh-aQrZs3hWNLbEg8XgmCamrLneZ0gKgwGMldBMv7NpeGE8vGQ2lhvBUP7SI3rtz2.jpg?r=303" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcRFZmsaTZ2UrbrtpxVQRq_HKRIti3XkpS5n_oyQ9E-XEFH4P0EOtDPDLcD4g-9zkGdVihZz-wqWSFO5o5TpVZR3I9nwll3DJGo.webp?r=617" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWkUdWH5Zy0WrvWymAjCKjdUy8gtaRWjh9t6uXqiEZDVhXMqiBmtDEigRt3ipSo-EImIXhhpPlrgo5EvsEF2Ug0Ku5dQ-Mmn_wLHZXIig3lLN1Fy2R5dCY3z1NtjixSx_SUW.jpg?r=b41" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRtYTeRqjgFcDa1Wp2ZPI0FdAG74R1PfEyWGOoux3Lnfu9lWDAZvBtPXWVOsChxP0PjWY5ziEfKMUIqgsFoL4tUsD4iVK6Vbpqef8Lbhggg5gurUdAjcccuCzFB2xJRrgNoQ.jpg?r=084" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABT-DC7kJcoT8TAB6tfpe5be7mJUObS5sBn3H9hNSmzqf1yuh3f6eIbWPr6GxZdZPFU8h-TF30-9l0AT09Jb-FwUdYMVfgdSFL9G9vZHtjoHPqD5nE97mPnta7iENRjmkjH9b.jpg?r=628" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABScWTxC0HaIVEKpixM80YEc8OIRnsxrEcn-XTKeKMMUJOkk939SvOAJ9-BS0QsghI5vyOBCul6bDXmnTA0XwqKpWXrHKKhCpPoaXLy6LEtMtNkml38VG732n33DBuigVFb-2.jpg?r=38e" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZI91g_QXaGYfJWENAJIug4Zu0JU9v4ztCtVRIRv9TQzFLiNp7Y3RsLyIsOFKpEVs9wJcGldTBpzQQcvY-crclXIgBSlKtkM1tE.webp?r=a16" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXq3QVXmIe_2P9ctKAsW9tlR7P5FLVlotbbLbd0JKldtYrjZHILwZQC4Rmsh6y9OV5QcpZJyHC5E5eFkrhvC0HGls9izv_bNx9pZ0y9kpRHxFSqbfWREegE2RmGHn_LlwvFHHyRB35afzfVAzPjDAtQbmDUANkQmOy9AMobf8Lvu4Qc1rw3VcgWWi6pD625Gas8w_Z7PbBGakorBfNAR0tL4Ppg_eDtUs8dByVxKc6F9s7hayEKzpgS4JYCS-b3Z-SdGwp6gHi2aDuRP8uw7zuYfImZ78D_hMZqDWAPGZKLkStTFL_MjK89PtYiL9SBOCxllQOR3E5TOmKGRWrD38dJ7lPb3gmZ87Ec.jpg?r=fcc" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQoUYsfrnszQ8XJJlTbaFigu0JrXKBOZdGRpvkVMbuSs-D0yOO9DUzIqiEkvvwmAANbsHyrEFNy3Xg8ykOttnCo-AjwJLx0uY0Y1UaGhkayg89RCyz5uURZ4gh-BsJyCf1Cu.jpg?r=415" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdiwXitg_F8ohNKAx5TMWZ6NofoF4yV6H8MYyHVRF_CmdVoAj3ZNgidhzVmwP3HpR4yXC-vTrehz__cZ64grHLMHZFO8UmEOQjS7hMdikHcwaN76SkDltue1fXcRXyW-fL26vqAGHX80C6LajpujW49kA--Kwmhhu--hn-LbrtCthMIMpfcZlS8K-zbeUsUFNvLHh9P3KQXGOwqpr2dfNEUtBIlW5sd2Q7eB1AXhbdu5FtrlXX4rJUoXdv9jTTd2JORNmg2cnyrYBSEVStzCY1OyrdbqcxYT6ZqCsxyKmyne3ASK1Wjx6VRLygyfb550md12sbqlHuaobFyM6wDCfckrxADKwYuf4Q.jpg?r=6f9" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABb9r_YwWbuPJsI8V6MH3OpjHskSMrjUhvOLnww2WpDO-yRNtRGHzCmwYs8tyA6EPvkxFx9Fi2T-MswccmSjOafeBnt_K03LYJfUW4DlKmzPhMLkVYOj0YSMrgGg4Vk80X4f9.jpg?r=42a" alt=""></div>
+
+
+
+</div>
+
+
+
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+
+</div>
+
+<section class="carrossel">
+    <p class="carrosel__titulo2">Ultimos lançamentos</p>
+
+    <div class="carrossel__container">
+<div class="swiper">>
+
+<div class="swiper-pagination"></div>
+
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZxdzmV7aF2ymJEwyHs8FrAYyPRHQlaJ7Pp2Vjms_FPJhqf8kkyOWO2cc7vS72DTKgi6L6CuQP4ip6nc1wbTc_-brC-DTjpOc79Pyz8NkaRHgmvDGMtpEs9GCIkxpD4wZjA84iqTxIjgzRE1tOUCCtStAwsZ-1eUUaGMDkfQlrkNBjIsO2WmFGWTZ-Sqgd0.jpg?r=4e3" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbq8Zti5hkobrDiYmDRJwRY3Meiwmt8OgkgWIx3JRixLRVsKh3-k5lu2fMzx70Ra9QFqYwEtcNgIPhUE37bSuMh5upxKnE39-bdpV_QF506Bz5R0jesS0GCRYk4KZePo9FIh_ZJTY_QDJ57Yyx3QQJgyTb0-8l_nY_jpyM19Be9-pwhipB158ooS9aQVjuM.jpg?r=ba5" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbIO6m3KkQFrkfwstzxbsTVEJlMqG2OeQTsJMS4yZrO_pePZCnRcSXBsLV3HOVJ_FyE76u50HK-PyzjnuGepC56On01At_Ir1OfA19Fdz3udksXzhGb7l9hOz3OlYH4JbuA8.jpg?r=01d" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeIhIMzZPUhHbmabeA8nBh_IOsmsDyvS-i9N0OmZe3w3dB3qH3qVw2yqubph5mCUxPgdNfJkJXqVWcDcqaOIGT74nanXTxAuGhuxRnXOfFe27MGqsBHLFLz3oJA9Ek34yL79pDPH7S563LNOPtPeAaP2KIVeGndshQyNcXKRyRMTVEizIfKnps8jzDoxdOP3lJJPGMQQYZcvkURAsGKO_ZOqbFE0WpMp544cH_Iidn2XqdRgpic1zhoiOcuapBbdBlciF-vPFfU2ZX3MCy1XtgYu00-u.webp?r=244" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABevmGvjgtcx_xkJdpEWhcFAx_uvXY4fIFbuRHtuYceQBh_MqjXbE5yIb3gO_SmzqBg_hGIGF6qPmbPXNxKM9HeF-qvgVITIrn4jyALmfT2xHQPFnBCYZCceHJDTlfuIsXfdi.jpg?r=6c8" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="http://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWRHVpj98a9pVueo3BVeT0z6y4B7DH8V9g3JKAzGWwuOqXadzrxU_1yQGFNOgctDns0rCK95KJLB97g2sy0Sx06bh_Cpcre375kx2YrQhqoAmbhrn4OV0CFx0Wo5AwR-8KeC.jpg?r=939" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABR9Q1lnThbbzLhCf8aRzyNOei69lEn45tlju84zdlZ1MHW8-VVkTHUH_2pgAUjR5jRMzE_5TMn4Rjp5PbIOv5cLtuHdI9r8QLPXFpmOzWw0TjHq5RBRFN3Cz8-aMapbVYN8Y.jpg?r=a18" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZap16KO2d4rqDuHab76pg29BxmOIQOwoUnqRYehFtXcFhY6utrk9pyuJq9yN_H6wYh_zGOKdxxz2CeVF62_69EsGuI9hLU-B7Mh6WCAvPX2Lo6xE6JrZy3jHqlkh1ERTk3M.jpg?r=41a" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaE7dNKt4tmEGQfk9dRkeOQ29xYppDeCQid8l62X0a4BsoAKdEj4b9z8u5xw0b5POvtwm4E6eZT2XwT2MMGjtXy_z4gMpcofvFAPZgwN9umDmeZMCcAg6o5xJAxD_20BK5C5.jpg?r=bb3" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbd46r8HoJWcUAIz_TiA_0gyg8jCFxpSBvtZdAs4QIucjY3GYORYJDrfi4d02oiYX9HTjiatqQRc2uns90Mo5D_wbhtPULPJWCU.webp?r=a71" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdbmcwq_Lz82A30vak_njE2Yuy8jIoc60hXUEF7xCgCzZay74mUFPm6QPpVuZfTzNf2iSPs4enH6KU9pTWgIDpTmCe5rPqzZVxUffgctL1l0sSzPAFJZFaWJQeynCi4AAVEV.jpg?r=5ee" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeET2oGsUL5NVe7uYB8I_Pjk1nODufi5OFSdQ3ONjTYpPsjs53ttc0v53vU3_QLaatNJKPbqp2W2lCL6sHgtMiXswUDtI1kSad0.webp?r=3b7" alt=""></div>
+<div class="swiper-slide"><img class="img-carrosel" src="https://occ-0-2321-559.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVqvCYs_EFR-gliGP_HBiEUGHKMEUUNHhXcQ5ecXnqKuPDSmkreF3Eq0MDMM4OVp01HPK-RfvcF52e-nXN29DQ9MNoqSJpEJD-fxnxKvQvmouESsKLC12-YXm3kAMxy9EgP2.jpg?r=de4" alt=""></div>
+
+
+</div>
+
+
+
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+
+</div>
+
+<p class="carrosel__titulo2">.</p>
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!--importação do js-->
+<script>const swiper = new Swiper('.swiper', {
+    
+    spaceBetween: 200,
+    slidesPerView: 6,
+    pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    },
+  });</script><!--codigo da aba initialize swiper, que é usado para mostrar o swiper, slideperview serve para separar qunatas iamgem ira aparecer. o de 400 é quando é para automatico-->
+
+
+
 </body>
 </html>

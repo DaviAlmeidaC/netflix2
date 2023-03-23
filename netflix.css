@@ -1,13 +1,210 @@
+@keyframes fade-in {
+    from { opacity: 0 }
+    to   { opacity: 1 }
+  }
+
 body{
-    background-image: url(la-casa-de-papel.gif);
-   
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    font-family: 'Roboto';
-    opacity: 0,3;
+    
+    background: #141414;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    animation: fade-in 2s normal forwards ease-in-out;
 }
 
-.div-princi{
-     background: #141414;
+.bg_video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url(images/torre.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.div-principal{
+    
+   
+   opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 52em;
+    background-attachment: fixed;
+    box-shadow:0px 0px 30px 30px #141414 inset ;
+
+}
+
+.cabeçalho{
+    
+    background-color: var(--branco);
+    display: flex;/*tranformei o cabeçalho em um flex container, e o seus filhos viraram itens do flex, e todos ficaram umd o lado do outro*/
+}
+
+.container-opçoes{
+  padding: 20px 38px 0px 60px;
+  height: 26px;
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 970px;
+}
+
+.imagem-pesquisa{
+    height: 45px;
+    padding-left: 18px;
+    transform: scaleX(-1);
+}
+
+.imagem-sino{
+    height: 27px;
+   
+}
+
+.imagem-perfil{
+    height: 32px;
+    width: 50px;
+    padding-left: 15px;
+}
+
+.opcoes{
+    display: flex;/*deixei as listas uma do lado da outra*/
+}
+
+.opcoes__itens{
+    padding: 1.8em 0.6em;
+    font-size: 15px;
+}
+
+.opcoes__link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.principal{
+   display: flex;
+    align-items: center;/*deixa tudo alinhado no centro, em relação vertical*/
+    /*deixa as palavras ou os textos alinhados no centro e tudo que aline no centro tmb*/
+    padding-top: 290px;
+}
+
+.container__caixa{
+    margin: 0 6em;/*o primeiro 0 é o topo e o baixo, e o 6em, e a esquerda e a direita*/
+    color: #fff;
+}
+
+.container__titulo{
+    font-size: 60px;/*tamamho*/
+    font-weight: 700;/*peso, negrito*/
+    color: #fff;
+    font: bold;
+    text-transform: uppercase;
+    margin: 0px 0px 25px 0px;
+}
+
+.pa{
+    color: grey;
+}
+
+.le{
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background: red;
+    box-shadow: 0px 0px 0px 10px #332828 inset;
+}
+
+.botao_secundario{
+   font-weight: bold;
+   font-size: 25px;
+    margin: 0px 0px 20px 0px;/*apliquei margin em tudo, que é o espaçamento do botao*/
+}
+
+.container__aviso{
+    font-size: 16px;/*tamamnho da fonte pequena*/
+    margin: 10px 0px 50px 0px ;/*a distancia de cada item*/
+    color: #fff;
+    
+}
+
+.play{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-right: 7px;
+    
+}
+
+.container__botao{
+    padding: 10px 20px;
+    background-color: rgba(109, 109, 110, 0.7);
+    border: #141414;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    opacity: 0.8;
+}
+
+.play:hover{
+    opacity: 0.6;
+}
+
+.container__botao:hover{
+    opacity: 0.6;
+}
+
+.div-secun{
+    background: #141414;
+}
+
+.img-carrosel{
+    border-radius: 5px;
+}
+
+.carrosel__titulo{
+    color: #fff;
+   
+   margin: 0px 80px;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+}
+
+.swiper-pagination{/*sao as plinhas que mostra em qual bloco esta*/
+    margin: em 10em 4em 10em;
+}
+
+.carrosel__titulo2{
+    color: #fff;
+   
+    margin: 3em 0px 0px 80px;
+     font-size: 28px;
+     font-weight: bold;
+}
+
+.swiper-button-prev{
+    background: #141414;
+    padding: 10px 10px 60px 10px;
+    opacity: 0.7;
+    box-shadow: -60px 0px 15px 80px #141414;
+}
+
+.swiper-button-next{
+    background: #141414;
+    padding: 10px 10px 60px 10px;
+    opacity: 0.4;
+    box-shadow: 65px 10px 10px 90px #141414;
 }
